@@ -1,0 +1,25 @@
+.admin-container {
+    display: flex;
+    .admin-sidebar {
+        .pro-sidebar {
+            height: 100vh !important;
+            }
+        
+    }
+    .admin-content {
+        width: 100%;
+        .admin-header{
+            height: 40px;
+            
+            border-radius: 5px;
+        }
+        .admin-main{
+            border-radius: 5px;
+            .phan_trang{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+  
+}
