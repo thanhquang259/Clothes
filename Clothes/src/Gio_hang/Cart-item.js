@@ -21,7 +21,7 @@ const CartItem = (props) => {
             <div>
                 <h4>{cartItem.title}</h4>
                 <h4 className="item-price">{cartItem.price}  </h4>
-                <button onClick={() => handleClickRemove(cartItem)}
+                <button onClick={() => handleClickRemove(cartItem.id)}
                     className="remove-btn"
 
                 >Xóa</button>

@@ -2,10 +2,9 @@ import { useNavigate } from 'react-router-dom'
 const Footer = (props) => {
     const nagivate = useNavigate();
     const { cartAmount, onClickClearAllCart } = props;
-    const handleClearAllCart = (cartItem) => {
+    const handleClearAllCart = () => {
         onClickClearAllCart();
     }
-    const navigate = useNavigate();
     return (
         <footer>
             <hr />

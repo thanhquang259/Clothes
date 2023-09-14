@@ -58,38 +58,29 @@ const Gio_hang = () => {
             return true;
         }
     });
-
-
-
     if (carts.length === 0 || cartsCheckAmountNoEmpty.length === 0) {
+
         return (
+
             <main>
                 <NavBar />
-
-
                 <section className="cart">
                     <header>
                         <h2>Giỏ hàng của bạn</h2>
                         <h2>Chưa có sản phẩm nào</h2>
                     </header>
-
-                    <CartList />
                     <Footer />
                 </section>
             </main>
         )
     }
-
     return (
         <main>
             <NavBar cartTotal={cartTotal()} />
-
-
             <section className="cart">
                 <header>
                     <h2>Giỏ hàng của bạn</h2>
                 </header>
-
                 <CartList carts={carts}
                     onClickRemove={handleClickRemove}
                     onClickIncrement={handleClickIncrement}
@@ -97,8 +88,6 @@ const Gio_hang = () => {
                 <Footer
                     cartAmount={cartAmount()}
                     onClickClearAllCart={handleClearAllCart}
-
-
                 />
             </section>
         </main>

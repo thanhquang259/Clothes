@@ -8,6 +8,15 @@ const postCreateNewUser = (email, password, username, role, image) => {
     form.append('userImage', image);
     return axios.post('api/v1/participant', form);
 }
+const postCreateNewProduct = (id, name, price, image) => {
+    const form = new FormData();
+    form.append('id', id);
+    form.append('name', name);
+    form.append('price', price);
+    form.append('userImage', image);
+    return axios.post('api/v1/product', form);
+}
+
 const getAllUsers = () => {
     return axios.get('api/v1/participant/all');
 }
@@ -34,9 +43,8 @@ const viewUser = (id, password, username, role, image) => {
 const deleteUsers = (userID) => {
     return axios.delete('api/v1/participant', { data: { id: userID } });
 }
-const getName = () => {
-    return axios.get(`api/v1/participant/username`)
-}
+
+
 const getUserswithPaginate = (page, limit) => {
     return axios.get(`api/v1/participant?page=${page}&limit=${limit}`);
 }
@@ -52,6 +60,6 @@ const getQuizByUser = () => {
 export {
     postCreateNewUser, getAllUsers, putUpdateUser, viewUser,
     deleteUsers, getUserswithPaginate, postLogin, postRegister,
-    getQuizByUser, getName
+    getQuizByUser, postCreateNewProduct,
 }
 
