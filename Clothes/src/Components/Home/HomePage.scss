@@ -1,0 +1,66 @@
+video {
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    margin-left: 700px;
+}
+.homepage-container{
+    .homepage-content{
+        padding: 100px;
+        width: 50%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .title-1 {
+        font-size: 100px;
+        letter-spacing: -0.02em;
+        line-height: 100%;
+        font-weight: bold;
+        text-align: justify;
+    }
+    .title-2 {
+        font-size: 24px;
+        letter-spacing: -0.02em;
+        line-height: 100%;
+        text-align: justify;
+    }
+    .title-3{
+        button{
+        border-radius: 12px;
+        height: 40px;
+        background: rgb(26, 26, 25);
+        color: rgb(255, 255, 255);
+        }
+        }
+        .title-4{
+        font-size: 60px;
+        letter-spacing: -0.02em;
+        line-height: 100%;
+        text-align: justify;
+        }
+}
+  @media only screen and (max-width: 63.9375em) {
+    .homepage-container .homepage-content{
+        padding: 50px;
+        width: 100%;
+    }
+    .homepage-content .title-1{
+        font-size: 75px;
+    }
+    .homepage-content .title-2{
+        font-size: 20px;
+    }
+    .homepage-content .title-4{
+        font-size: 50px;
+    }
+    .video{
+        padding-left: 10px;
+        padding-top: 300px;
+        display: block;
+        margin: 10px;
+        width: 95%;
+    }
+  }

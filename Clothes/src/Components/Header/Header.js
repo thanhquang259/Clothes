@@ -60,9 +60,7 @@ const Header = () => {
                             <NavDropdown.Item >
                                 <NavLink to="/San-pham-6" className='nav-link'>PHỤ KIỆN</NavLink>
                             </NavDropdown.Item>
-                            <NavDropdown.Item >
-                                <NavLink to="/Product" className='nav-link'>Product</NavLink>
-                            </NavDropdown.Item>
+
 
                         </NavDropdown>
                         <NavLink to="/sale" className='nav-link' style={{ paddingLeft: "75px", marginTop: '20px', color: 'black', fontWeight: 'bold' }}>SALE</NavLink>

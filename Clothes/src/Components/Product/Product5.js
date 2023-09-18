@@ -13,7 +13,7 @@ const Hoodie = () => {
                 <Header />
             </div>
             <div className="container">
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-1' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie1}></img>
@@ -28,7 +28,7 @@ const Hoodie = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-2' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie2}></img>
@@ -43,7 +43,7 @@ const Hoodie = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-3' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie3}></img>
@@ -58,7 +58,7 @@ const Hoodie = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-4' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie4}></img>
@@ -80,7 +80,7 @@ const Hoodie = () => {
                 </div>
             </div>
             <div className="container">
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-1' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie1}></img>
@@ -95,7 +95,7 @@ const Hoodie = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-2' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie2}></img>
@@ -110,7 +110,7 @@ const Hoodie = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-3' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie3}></img>
@@ -125,7 +125,7 @@ const Hoodie = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-4' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie4}></img>
@@ -147,7 +147,7 @@ const Hoodie = () => {
                 </div>
             </div>
             <div className="container">
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-1' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie1}></img>
@@ -162,7 +162,7 @@ const Hoodie = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-2' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie2}></img>
@@ -177,7 +177,7 @@ const Hoodie = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-3' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie3}></img>
@@ -192,7 +192,7 @@ const Hoodie = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-4' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie4}></img>
@@ -214,7 +214,7 @@ const Hoodie = () => {
                 </div>
             </div>
             <div className="container">
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-1' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie1}></img>
@@ -229,7 +229,7 @@ const Hoodie = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-2' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie2}></img>
@@ -244,7 +244,7 @@ const Hoodie = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-3' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie3}></img>
@@ -259,7 +259,7 @@ const Hoodie = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-4' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie4}></img>
@@ -281,7 +281,7 @@ const Hoodie = () => {
                 </div>
             </div>
             <div className="container">
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-1' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie1}></img>
@@ -296,7 +296,7 @@ const Hoodie = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-2' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie2}></img>
@@ -311,7 +311,7 @@ const Hoodie = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-3' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie3}></img>
@@ -326,7 +326,7 @@ const Hoodie = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-4' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie4}></img>
@@ -348,7 +348,7 @@ const Hoodie = () => {
                 </div>
             </div>
             <div className="container">
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-1' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie1}></img>
@@ -363,7 +363,7 @@ const Hoodie = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-2' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie2}></img>
@@ -378,7 +378,7 @@ const Hoodie = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-3' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie3}></img>
@@ -393,7 +393,7 @@ const Hoodie = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-sm-10 col-xs-2' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='san-pham-4' >
                         <div className='anh-san-pham'>
                             <img style={{ width: '100%', height: '100%' }} src={Hoodie4}></img>

@@ -29,10 +29,10 @@ const Tee = () => {
                 </InputGroup>
             </Form>
             <div className='container'>
-                <div className='product-items' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items' >
                     <div className='anh-san-pham '>
                         <Link to="/Tee1">
-                            <img style={{ width: '100%', height: '100%' }} src={Tee1} title='NS TEE - GREY'></img>
+                            <img style={{ width: '100%', height: '70%' }} src={Tee1} title='NS TEE - GREY'></img>
                         </Link>
                     </div>
                     <Link to="/Tee1" style={{ textDecoration: 'none', color: 'black' }}>
@@ -45,7 +45,7 @@ const Tee = () => {
                     </Link>
 
                 </div>
-                <div className='product-items' style={{ width: '25%', float: 'left' }}>
+                <div className='product-items' >
                     <div className='anh-san-pham'>
                         <img style={{ width: '100%', height: '70%' }} src={Tee2} title='BLANK TEE - PINK'></img>
                     </div>
@@ -57,7 +57,7 @@ const Tee = () => {
                     </div>
 
                 </div>
-                <div className='product-items' style={{ width: '25%', float: 'left' }}>
+                <div className='product-items' >
                     <div className='anh-san-pham'>
                         <img style={{ width: '100%', height: '100%' }} src={Tee3} title='RIDING HORSE TEE - WHITE'></img>
                     </div>
@@ -69,7 +69,7 @@ const Tee = () => {
                     </div>
 
                 </div>
-                <div className='product-items' style={{ width: '25%', float: 'left' }}>
+                <div className='product-items' >
                     <div className='anh-san-pham'>
                         <img style={{ width: '100%', height: '100%' }} src={Tee4} title='COMET TEE - BLACK'></img>
                     </div>
@@ -83,7 +83,7 @@ const Tee = () => {
                 </div>
             </div>
             <div className='container'>
-                <div className='product-items' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='anh-san-pham '>
                         <Link to="/Tee1">
                             <img style={{ width: '100%', height: '100%' }} src={Tee1} title='NS TEE - GREY'></img>
@@ -99,7 +99,7 @@ const Tee = () => {
                     </Link>
 
                 </div>
-                <div className='product-items' style={{ width: '25%', float: 'left' }}>
+                <div className='product-items' >
                     <div className='anh-san-pham'>
                         <img style={{ width: '100%', height: '70%' }} src={Tee2} title='BLANK TEE - PINK'></img>
                     </div>
@@ -111,7 +111,7 @@ const Tee = () => {
                     </div>
 
                 </div>
-                <div className='product-items' style={{ width: '25%', float: 'left' }}>
+                <div className='product-items' >
                     <div className='anh-san-pham'>
                         <img style={{ width: '100%', height: '100%' }} src={Tee3} title='RIDING HORSE TEE - WHITE'></img>
                     </div>
@@ -123,7 +123,7 @@ const Tee = () => {
                     </div>
 
                 </div>
-                <div className='product-items' style={{ width: '25%', float: 'left' }}>
+                <div className='product-items' >
                     <div className='anh-san-pham'>
                         <img style={{ width: '100%', height: '100%' }} src={Tee4} title='COMET TEE - BLACK'></img>
                     </div>
@@ -137,7 +137,7 @@ const Tee = () => {
                 </div>
             </div>
             <div className='container'>
-                <div className='product-items' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='anh-san-pham '>
                         <Link to="/Tee1">
                             <img style={{ width: '100%', height: '100%' }} src={Tee1} title='NS TEE - GREY'></img>
@@ -153,7 +153,7 @@ const Tee = () => {
                     </Link>
 
                 </div>
-                <div className='product-items' style={{ width: '25%', float: 'left' }}>
+                <div className='product-items' >
                     <div className='anh-san-pham'>
                         <img style={{ width: '100%', height: '70%' }} src={Tee2} title='BLANK TEE - PINK'></img>
                     </div>
@@ -165,7 +165,7 @@ const Tee = () => {
                     </div>
 
                 </div>
-                <div className='product-items' style={{ width: '25%', float: 'left' }}>
+                <div className='product-items' >
                     <div className='anh-san-pham'>
                         <img style={{ width: '100%', height: '100%' }} src={Tee3} title='RIDING HORSE TEE - WHITE'></img>
                     </div>
@@ -177,7 +177,7 @@ const Tee = () => {
                     </div>
 
                 </div>
-                <div className='product-items' style={{ width: '25%', float: 'left' }}>
+                <div className='product-items' >
                     <div className='anh-san-pham'>
                         <img style={{ width: '100%', height: '100%' }} src={Tee4} title='COMET TEE - BLACK'></img>
                     </div>
@@ -191,7 +191,7 @@ const Tee = () => {
                 </div>
             </div>
             <div className='container'>
-                <div className='product-items' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='anh-san-pham '>
                         <Link to="/Tee1">
                             <img style={{ width: '100%', height: '100%' }} src={Tee1} title='NS TEE - GREY'></img>
@@ -207,7 +207,7 @@ const Tee = () => {
                     </Link>
 
                 </div>
-                <div className='product-items' style={{ width: '25%', float: 'left' }}>
+                <div className='product-items' >
                     <div className='anh-san-pham'>
                         <img style={{ width: '100%', height: '70%' }} src={Tee2} title='BLANK TEE - PINK'></img>
                     </div>
@@ -219,7 +219,7 @@ const Tee = () => {
                     </div>
 
                 </div>
-                <div className='product-items' style={{ width: '25%', float: 'left' }}>
+                <div className='product-items' >
                     <div className='anh-san-pham'>
                         <img style={{ width: '100%', height: '100%' }} src={Tee3} title='RIDING HORSE TEE - WHITE'></img>
                     </div>
@@ -231,7 +231,7 @@ const Tee = () => {
                     </div>
 
                 </div>
-                <div className='product-items' style={{ width: '25%', float: 'left' }}>
+                <div className='product-items' >
                     <div className='anh-san-pham'>
                         <img style={{ width: '100%', height: '100%' }} src={Tee4} title='COMET TEE - BLACK'></img>
                     </div>
@@ -245,7 +245,7 @@ const Tee = () => {
                 </div>
             </div>
             <div className='container'>
-                <div className='product-items' style={{ width: '25%', float: 'left' }} >
+                <div className='product-items'  >
                     <div className='anh-san-pham '>
                         <Link to="/Tee1">
                             <img style={{ width: '100%', height: '100%' }} src={Tee1} title='NS TEE - GREY'></img>
@@ -261,7 +261,7 @@ const Tee = () => {
                     </Link>
 
                 </div>
-                <div className='product-items' style={{ width: '25%', float: 'left' }}>
+                <div className='product-items' >
                     <div className='anh-san-pham'>
                         <img style={{ width: '100%', height: '70%' }} src={Tee2} title='BLANK TEE - PINK'></img>
                     </div>
@@ -273,7 +273,7 @@ const Tee = () => {
                     </div>
 
                 </div>
-                <div className='product-items' style={{ width: '25%', float: 'left' }}>
+                <div className='product-items' >
                     <div className='anh-san-pham'>
                         <img style={{ width: '100%', height: '100%' }} src={Tee3} title='RIDING HORSE TEE - WHITE'></img>
                     </div>
@@ -285,7 +285,7 @@ const Tee = () => {
                     </div>
 
                 </div>
-                <div className='product-items' style={{ width: '25%', float: 'left' }}>
+                <div className='product-items' >
                     <div className='anh-san-pham'>
                         <img style={{ width: '100%', height: '100%' }} src={Tee4} title='COMET TEE - BLACK'></img>
                     </div>
@@ -300,7 +300,7 @@ const Tee = () => {
             </div>
             <ScrollButton />
             <Footer />
-        </div>
+        </div >
 
     )
 }

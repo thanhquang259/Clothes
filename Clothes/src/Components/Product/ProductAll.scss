@@ -1,5 +1,10 @@
 .container{
     display: flex;
+    flex-wrap: wrap;
+    .product-items{
+        width: 25%;
+        float: left;
+    }
     .anh-san-pham{
         padding-left: 25px;
         transition: all 0.3s;
@@ -39,6 +44,26 @@
             }
         }
 }
+
+
+
+// /* Mobile: width < 740px */      
+@media only screen and (max-width: 46.1875em) {
+   
+    .container .product-items{
+        width: 100%;
+    }
+}
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .container .product-items{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 63.9375em) {
+    
+}
+
 
 
 

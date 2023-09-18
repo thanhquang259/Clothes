@@ -23,10 +23,45 @@
     padding-right: 15px;
     justify-content: center;
 }
-    .p{
-        color:#999999;
-    }
+.p{
+    color:#999999;
+}
+.cot_1{
+    padding: 20px 40px;
+    float: right;
+    width: 33%;
+    text-align: justify;
+    padding-left: 200px;
+}
+.cot_2{
+    padding: 20px 40px;
+    float: left;
+    width: 33%;
+}
+.cot_3{
+    padding: 20px 40px;
+    float: right;
+    width: 33%; 
+}
+/* Phone*/
+@media only screen and (max-width: 46.1875em) {
+   
+   
+}
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
     
+}
+@media only screen and (max-width: 63.9375em) {
+    .cot_1{
+        width: 100%;
+        padding-left: 40px;
+        display: block;
+    }
+    .cot_2,.cot_3{
+        width: 100%;
+    }
+}
 
 
 

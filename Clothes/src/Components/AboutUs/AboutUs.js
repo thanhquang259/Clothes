@@ -5,10 +5,7 @@ import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import ScrollButton from '../ScrolltoTop/ScrolltoTop'
 const VeChungToi = () => {
-    function topFunction() {
 
-        ('html, body').animate({ scrollTop: 0 }, 'slow');
-    }
 
     return (
 

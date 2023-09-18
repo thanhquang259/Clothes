@@ -1,6 +1,7 @@
 import videoHomepage from '../../assets/videoHomepage1.mp4'
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
+import './HomePage.scss';
 const HomePage = (props) => {
     const account = useSelector(state => state.user.account);
     const isAuthenticated = useSelector(state => state.user.isAuthenticated);

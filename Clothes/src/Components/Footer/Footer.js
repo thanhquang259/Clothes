@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer >
             <div className="footer">
-                <div className="cot_1" style={{ padding: "20px 40px", float: "right", width: "33%", textAlign: "justify", paddingLeft: "200px" }}>
+                <div className="cot_1" >
                     <div className="cot-gioi-thieu">
                         <h4 className="h4">About Us</h4>
 
@@ -32,7 +32,7 @@ const Footer = () => {
 
                     </div >
                 </div >
-                <div className="cot_2" style={{ padding: "20px 40px", float: "left", width: "33%" }}>
+                <div className="cot_2" >
                     <a href="/">
                         <img width="135px" height="100%" className="lazy loaded" src={Logo1} alt="logo-brand" data-was-processed="true" style={{ padding: "15px" }} />
                     </a>
@@ -61,7 +61,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="cot_3" style={{ padding: "20px 40px", float: "right", width: "33%" }}>
+                <div className="cot_3" >
                     <h4><span style={{ fontSize: "15px", textAlign: "center", paddingLeft: "30px", marginBottom: "1rem", boxSizing: "border-box" }} >Theo dõi Helion từ các nền tảng khác nhau nhé!</span></h4>
 
                     <div className="social">

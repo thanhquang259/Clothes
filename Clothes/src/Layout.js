@@ -22,7 +22,7 @@ import ContentTee1 from './Components/ContentProduct/ContentTee1';
 import Chinh_sach_doi_tra from './Components/Doi-tra/Chinh-sach-doi-tra';
 import Bangsize from './Components/Bang_size/Bang_size';
 import Gio_hang from './Gio_hang/Gio_hang';
-import Product from './Components/Product/Product';
+
 
 
 
@@ -56,7 +56,6 @@ const Layout = (props) => {
                 <Route path="/Doi-tra" element={<Chinh_sach_doi_tra />} />
                 <Route path="/Bang-size" element={<Bangsize />} />
                 <Route path="/Gio_hang" element={<Gio_hang />} />
-                <Route path="/Product" element={<Product />} />
 
             </Routes>
             <ToastContainer
