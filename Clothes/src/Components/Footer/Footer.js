@@ -11,19 +11,19 @@ const Footer = () => {
                         <h4 className="h4">About Us</h4>
 
                         <Link to="/" className="a">
-                            <span>Trang chủ</span>
+                            <span className="a">Trang chủ</span>
                         </Link>
                         <br></br>
                         <Link to="/Tat-ca" className="a">
-                            <span>Tất cả sản phẩm</span>
+                            <span className="a">Tất cả sản phẩm</span>
                         </Link>
                         <br></br>
                         <Link to="/Doi-tra" className="a">
-                            <span>Chính sách đổi trả</span>
+                            <span className="a">Chính sách đổi trả</span>
                         </Link>
                         <br></br>
                         <Link to="/Bang-size" className="a">
-                            <span>Bảng size</span>
+                            <span className="a">Bảng size</span>
                         </Link>
                         <br></br>
                         <a className="a" href="/apps/kiem-tra-don-hang" title="Kiểm tra đơn hàng" rel="nofollow">Kiểm tra đơn hàng</a>
@@ -62,7 +62,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="cot_3" >
-                    <h4><span style={{ fontSize: "15px", textAlign: "center", paddingLeft: "30px", marginBottom: "1rem", boxSizing: "border-box" }} >Theo dõi Helion từ các nền tảng khác nhau nhé!</span></h4>
+                    <span style={{ fontSize: "18px", textAlign: "center", paddingLeft: "30px", marginBottom: "1rem", boxSizing: "border-box", textAlign: "justify" }} >Theo dõi Helion từ các nền tảng khác nhau nhé!</span>
 
                     <div className="social">
                         <a href="" className="social-button"><img src="https://bizweb.dktcdn.net/100/415/697/themes/902041/assets/facebook.svg?1689845934678" /></a>

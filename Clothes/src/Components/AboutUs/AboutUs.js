@@ -14,7 +14,7 @@ const VeChungToi = () => {
                 <Header />
             </div>
             <div className='about-us'>
-                <h1>about us</h1>
+                <h1>Về chúng tôi</h1>
             </div>
             <div className='title-1' >
                 LỊCH SỬ HÌNH THÀNH
