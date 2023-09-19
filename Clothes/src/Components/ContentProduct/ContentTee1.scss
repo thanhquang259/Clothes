@@ -13,7 +13,7 @@
     height: 40px;
     align-items: center;
     justify-content: center;
-    background-color: lightgreen;
+    background-color: white;
 }
 .btnM{
     display: flex;
@@ -24,7 +24,7 @@
     height: 40px;
     align-items: center;
     justify-content: center;
-    background-color: lightgreen;
+    background-color: white;
 }
 .btnL{
     display: flex;
@@ -35,7 +35,7 @@
     height: 40px;
     align-items: center;
     justify-content: center;
-    background-color: lightgreen;
+    background-color: white;
 }
 .btnXL{
     display: flex;
@@ -46,7 +46,7 @@
     height: 40px;
     align-items: center;
     justify-content: center;
-    background-color: lightgreen;
+    background-color: white;
 }
 .header{
     font-size: 20px;
@@ -59,6 +59,38 @@
 }
 .price-box{
     font-size: 35px;
+}
+.content{
+    padding-left: 15px; 
+    width: 40%;
+    float: right;
+}
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity input {
+    width: 50px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.quantity .increase,
+.quantity .decrease {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    color: #000;
+}
+@media only screen and (max-width: 63.9375em) {
+    .content{
+        padding-left: 40px;
+        width: 100%;
+        display: block;
+    }
 }
 
 

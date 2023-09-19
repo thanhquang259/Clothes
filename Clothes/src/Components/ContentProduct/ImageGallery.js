@@ -3,30 +3,31 @@ import Tee11 from '../../assets/Tee1(1).jpg'
 import Tee12 from '../../assets/Tee1(2).jpg'
 import Tee13 from '../../assets/Tee1(3).jpg'
 import Tee1 from '../../assets/Tee1.jpg'
+import Tee14 from '../../assets/Tee1(4).jpg'
 import { FcPrevious, FcNext } from 'react-icons/fc'
 import './ImageGallery.scss'
 const ImageGallery = () => {
     const [currentImage, setCurrentImage] = useState(0);
     const images = [
         {
-            src: "https://bizweb.dktcdn.net/100/318/614/products/3-1-compressed.jpg?v=1687501636860",
+            src: Tee1,
             alt: "Image 1",
 
         },
         {
-            src: "https://bizweb.dktcdn.net/100/318/614/products/3-compressed-4.jpg?v=1687501651817",
+            src: Tee11,
             alt: "Image 2",
         },
         {
-            src: "https://bizweb.dktcdn.net/100/318/614/products/3-compressed-3.jpg?v=1687501658740",
+            src: Tee12,
             alt: "Image 3",
         },
         {
-            src: "https://bizweb.dktcdn.net/100/318/614/products/3-compressed-2.jpg?v=1687501658740",
+            src: Tee13,
             alt: "Image 4",
         },
         {
-            src: "https://bizweb.dktcdn.net/100/318/614/products/3-compressed-1.jpg?v=1687501657617",
+            src: Tee14,
             alt: "Image 5",
         },
     ];
@@ -41,16 +42,17 @@ const ImageGallery = () => {
 
     return (
         <div className="Container" >
-            <div style={{ float: "left", width: "50%" }}>
+            <div className="picture" >
                 <div className='swiper-button-pre' onClick={handlePreviousImage} style={{ float: "left" }}><FcPrevious /></div>
-                <div className='swiper-button-next' onClick={handleNextImage} style={{ float: "right" }}><FcNext /></div>
-                <img src={images[currentImage].src} alt={images[currentImage].alt} style={{ width: "90%", height: "500px", display: "block", paddingLeft: "10px" }} />
+                <img src={images[currentImage].src} alt={images[currentImage].alt} style={{ width: "65%", height: "500px", paddingLeft: "10px", float: "left" }} />
+                <div className='swiper-button-next' onClick={handleNextImage} style={{ float: "left" }}><FcNext /></div>
 
-                <div style={{ width: "100%", paddingLeft: "25px", paddingTop: "25px" }}>
-                    <img src={Tee1} style={{ width: "22%", height: "100px", margin: "0px 10px 10px 0" }} />
-                    <img src={Tee11} style={{ width: "22%", height: "100px", margin: "0px 10px 10px 0" }} />
-                    <img src={Tee12} style={{ width: "22%", height: "100px", margin: "0px 10px 10px 0" }} />
-                    <img src={Tee13} style={{ width: "22%", height: "100px", margin: "0px 10px 10px 0" }} />
+
+                <div style={{ width: "100%", paddingLeft: "30px", paddingTop: "25px" }}>
+                    <img src={Tee11} style={{ width: "15%", height: "100px", margin: "0px 10px 10px 0" }} />
+                    <img src={Tee12} style={{ width: "15%", height: "100px", margin: "0px 10px 10px 0" }} />
+                    <img src={Tee13} style={{ width: "15%", height: "100px", margin: "0px 10px 10px 0" }} />
+                    <img src={Tee14} style={{ width: "15%", height: "100px", margin: "0px 10px 10px 0" }} />
                 </div>
             </div>
         </div>
