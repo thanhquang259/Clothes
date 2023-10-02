@@ -4,7 +4,7 @@ import NavBar from './NavBar'
 import Footer from './Footer'
 import cartList from '../Gio_hang/Service/Cart'
 import CartList from './CartList'
-
+import Header from '../Components/Header/Header'
 const Gio_hang = () => {
 
     const [carts, setCarts] = useState(cartList);
@@ -62,6 +62,7 @@ const Gio_hang = () => {
         return (
 
             <main>
+                <Header />
                 <NavBar />
                 <section className="cart">
                     <header>
@@ -75,6 +76,7 @@ const Gio_hang = () => {
     }
     return (
         <main>
+            <Header />
             <NavBar cartTotal={cartTotal()} />
             <section className="cart">
                 <header>
