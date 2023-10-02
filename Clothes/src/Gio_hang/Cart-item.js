@@ -6,11 +6,9 @@ const CartItem = (props) => {
         onClickRemove(id);
     }
     const handleClickIncrement = (cartItem) => {
-        console.log('cartitem ', cartItem);
         onClickIncrement(cartItem);
     }
     const handleClickDecrement = (cartItem) => {
-        console.log('cartItem ', cartItem);
         onClickDecrement(cartItem);
     }
 

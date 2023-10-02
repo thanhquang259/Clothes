@@ -38,361 +38,366 @@ const TatCaSanPham = () => {
             <div>
                 <Header />
             </div>
-            <div className="product-items" >
-                <div class='container'>
-                    <div className='product-items'  >
-                        <div className='anh-product-items '>
-                            <Link to="/Tee1">
-                                <img style={{ width: '100%', height: '100%' }} src={Tee1} title='NS TEE - GREY'></img>
-                            </Link>
-                        </div>
-                        <Link to="/Tee1" style={{ textDecoration: 'none', color: 'black' }}>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>NS TEE - GREY</h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-goc'>380.000đ</span>
-                                </div>
-                            </div>
+
+            <div className='container'>
+
+                <div className='product-items'  >
+                    <div className='anh-san-pham '>
+                        <Link to="/Tee1">
+                            <img style={{ width: '100%', height: '100%' }} src={Tee1} title='NS TEE - GREY'></img>
                         </Link>
-
                     </div>
-                    <div className='product-items' >
-                        <div className='anh-product-items'>
-                            <img style={{ width: '100%', height: '70%' }} src={Tee2}></img>
-                        </div>
-                        <div className='noi-dung-product-items'>
-                            <h2 className='product-items'>BLANK TEE - PINK</h2>
+                    <Link to="/Tee1" style={{ textDecoration: 'none', color: 'black' }}>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>NS TEE - GREY</h2>
                             <div className='khu-vuc-gia'>
-                                <span className='gia-goc'>295.000đ</span>
+                                <span className='gia-goc'>380.000đ</span>
                             </div>
                         </div>
+                    </Link>
 
+                </div>
+                <div className='product-items' >
+                    <div className='anh-san-pham'>
+                        <img style={{ width: '100%', height: '70%' }} src={Tee2}></img>
                     </div>
-                    <div className='product-items' >
-                        <div className='anh-product-items'>
-                            <img style={{ width: '100%', height: '100%' }} src={Tee3}></img>
+                    <div className='noi-dung-san-pham'>
+                        <h2 className='san-pham'>BLANK TEE - PINK</h2>
+                        <div className='khu-vuc-gia'>
+                            <span className='gia-goc'>295.000đ</span>
                         </div>
-                        <div className='noi-dung-product-items'>
-                            <h2 className='product-items'>RIDING HORSE TEE - WHITE</h2>
+                    </div>
+
+                </div>
+                <div className='product-items' >
+                    <div className='anh-san-pham'>
+                        <img style={{ width: '100%', height: '100%' }} src={Tee3}></img>
+                    </div>
+                    <div className='noi-dung-san-pham'>
+                        <h2 className='san-pham'>RIDING HORSE TEE - WHITE</h2>
+                        <div className='khu-vuc-gia'>
+                            <span className='gia-goc'>395.000đ</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div className='product-items' >
+                    <div className='anh-san-pham'>
+                        <img style={{ width: '100%', height: '100%' }} src={Tee4}></img>
+                    </div>
+                    <div className='noi-dung-san-pham'>
+                        <h2 className='san-pham'>COMET TEE - BLACK</h2>
+                        <div className='khu-vuc-gia'>
+                            <span className='gia-goc'>395.000đ</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div className='product-items'  >
+                    <div className='product-items-1' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%', height: '100%' }} src={BabyTee1}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>FROZEN RIVER TEE - WHITE</h2>
+                            <div className='khu-vuc-gia'>
+                                <span className='gia-goc'>350.000đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='product-items'  >
+                    <div className='product-items-2' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%', height: '100%' }} src={BabyTee2}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>SEA CAVE BABY TEE - BLACK</h2>
+                            <div className='khu-vuc-gia'>
+                                <span className='gia-goc'>350.000đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='product-items'  >
+                    <div className='product-items-3' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%', height: '100%' }} src={BabyTee3}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>CHERRY BLOSSOM BABY TEE - CREAM</h2>
+                            <div className='khu-vuc-gia'>
+                                <span className='gia-goc'>350.000đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='product-items'  >
+                    <div className='product-items-4' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%' }} src={BabyTee4}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>YUGAMI BABY TEE - BLACK</h2>
+                            <div className='khu-vuc-gia'>
+                                <span className='gia-goc'>350.000đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div className='product-items'  >
+                    <div className='product-items-1' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%', height: '100%' }} src={Bottom1}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>MESH LOGO SHORTS - CREAM</h2>
                             <div className='khu-vuc-gia'>
                                 <span className='gia-goc'>395.000đ</span>
                             </div>
                         </div>
-
                     </div>
-                    <div className='product-items' >
-                        <div className='anh-product-items'>
-                            <img style={{ width: '100%', height: '100%' }} src={Tee4}></img>
+                </div>
+                <div className='product-items'  >
+                    <div className='product-items-2' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%', height: '100%' }} src={Bottom2}></img>
                         </div>
-                        <div className='noi-dung-product-items'>
-                            <h2 className='product-items'>COMET TEE - BLACK</h2>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>WIDE FIT JEANS - BLUE</h2>
                             <div className='khu-vuc-gia'>
-                                <span className='gia-goc'>395.000đ</span>
+                                <span className='gia-goc'>580.000đ</span>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className='product-items'  >
+                    <div className='product-items-3' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%', height: '100%' }} src={Bottom3}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>JEANS CARGO PANTS</h2>
+                            <div className='khu-vuc-gia'>
+                                <span className='gia-goc'>545.000đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='product-items'  >
+                    <div className='product-items-4' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%' }} src={Bottom4}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>WIDE FIT JEANS - BLACK</h2>
+                            <div className='khu-vuc-gia'>
+                                <span className='gia-goc'>580.000đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                    </div>
-                </div>
-                <div class='container'>
-                    <div className='product-items'  >
-                        <div className='product-items-1' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%', height: '100%' }} src={BabyTee1}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>FROZEN RIVER TEE - WHITE</h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-goc'>350.000đ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='product-items'  >
-                        <div className='product-items-2' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%', height: '100%' }} src={BabyTee2}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>SEA CAVE BABY TEE - BLACK</h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-goc'>350.000đ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='product-items'  >
-                        <div className='product-items-3' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%', height: '100%' }} src={BabyTee3}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>CHERRY BLOSSOM BABY TEE - CREAM</h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-goc'>350.000đ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='product-items'  >
-                        <div className='product-items-4' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%' }} src={BabyTee4}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>YUGAMI BABY TEE - BLACK</h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-goc'>350.000đ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class='container'>
-                    <div className='product-items'  >
-                        <div className='product-items-1' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%', height: '100%' }} src={Bottom1}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>MESH LOGO SHORTS - CREAM</h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-goc'>395.000đ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='product-items'  >
-                        <div className='product-items-2' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%', height: '100%' }} src={Bottom2}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>WIDE FIT JEANS - BLUE</h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-goc'>580.000đ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='product-items'  >
-                        <div className='product-items-3' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%', height: '100%' }} src={Bottom3}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>JEANS CARGO PANTS</h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-goc'>545.000đ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='product-items'  >
-                        <div className='product-items-4' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%' }} src={Bottom4}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>WIDE FIT JEANS - BLACK</h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-goc'>580.000đ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class='container'>
-                    <div className='product-items'  >
-                        <div className='product-items-1' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%', height: '100%' }} src={Jacket1}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>MESH LOGO SHORTS - CREAM</h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-goc'>986.000đ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='product-items'  >
-                        <div className='product-items-2' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%', height: '100%' }} src={Jacket2}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>VISIONARY JACKET</h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-goc'>329.000đ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='product-items'  >
-                        <div className='product-items-3' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%', height: '100%' }} src={Jacket3}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>NOWSAIGON COACHES JACKET</h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-goc'>580.000đ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='product-items'  >
-                        <div className='product-items-4' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%' }} src={Jacket4}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>AERO JACKET</h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-goc'>650.000đ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="container">
-                    <div className='product-items'  >
-                        <div className='product-items-1' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%', height: '100%' }} src={Hoodie1}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'> Áo Hoodie Gameboy </h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-giam'>349.000đ</span>
-                                    <br></br>
-                                    <span className='gia-goc' style={{ textDecoration: 'line-through', color: '#999', fontSize: '14px' }}>550.000đ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='product-items'  >
-                        <div className='product-items-2' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%', height: '100%' }} src={Hoodie2}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>  Áo Hoodie Tet Holiday 2023  </h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-giam'>349.000đ</span>
-                                    <br></br>
-                                    <span className='gia-goc' style={{ textDecoration: 'line-through', color: '#999', fontSize: '14px' }}>550.000đ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='product-items'  >
-                        <div className='product-items-3' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%', height: '100%' }} src={Hoodie3}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>   Áo Hoodie Certified Lover  </h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-giam'>349.000đ</span>
-                                    <br></br>
-                                    <span className='gia-goc' style={{ textDecoration: 'line-through', color: '#999', fontSize: '14px' }}>550.000đ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='product-items'  >
-                        <div className='product-items-4' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%', height: '100%' }} src={Hoodie4}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>   Áo Hoodie Journey Icons </h2>
 
-                                <div className='khu-vuc-gia'>
-                                    <div className='gia-giam'>
-                                        <span >349.000đ </span>
-                                    </div>
 
-                                    <div className='gia-goc'>
-                                        <span style={{ textDecoration: 'line-through', color: '#999', fontSize: '14px' }}>550.000đ</span>
-                                    </div>
+                <div className='product-items'  >
+                    <div className='product-items-1' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%', height: '100%' }} src={Jacket1}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>MESH LOGO SHORTS - CREAM</h2>
+                            <div className='khu-vuc-gia'>
+                                <span className='gia-goc'>986.000đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='product-items'  >
+                    <div className='product-items-2' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%', height: '100%' }} src={Jacket2}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>VISIONARY JACKET</h2>
+                            <div className='khu-vuc-gia'>
+                                <span className='gia-goc'>329.000đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='product-items'  >
+                    <div className='product-items-3' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%', height: '100%' }} src={Jacket3}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>NOWSAIGON COACHES JACKET</h2>
+                            <div className='khu-vuc-gia'>
+                                <span className='gia-goc'>580.000đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='product-items'  >
+                    <div className='product-items-4' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%' }} src={Jacket4}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>AERO JACKET</h2>
+                            <div className='khu-vuc-gia'>
+                                <span className='gia-goc'>650.000đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div className='product-items'  >
+                    <div className='product-items-1' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%', height: '100%' }} src={Hoodie1}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'> Áo Hoodie Gameboy </h2>
+                            <div className='khu-vuc-gia'>
+                                <span className='gia-giam'>349.000đ</span>
+                                <br></br>
+                                <span className='gia-goc' style={{ textDecoration: 'line-through', color: '#999', fontSize: '14px' }}>550.000đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='product-items'  >
+                    <div className='product-items-2' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%', height: '100%' }} src={Hoodie2}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>  Áo Hoodie Tet Holiday 2023  </h2>
+                            <div className='khu-vuc-gia'>
+                                <span className='gia-giam'>349.000đ</span>
+                                <br></br>
+                                <span className='gia-goc' style={{ textDecoration: 'line-through', color: '#999', fontSize: '14px' }}>550.000đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='product-items'  >
+                    <div className='product-items-3' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%', height: '100%' }} src={Hoodie3}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>   Áo Hoodie Certified Lover  </h2>
+                            <div className='khu-vuc-gia'>
+                                <span className='gia-giam'>349.000đ</span>
+                                <br></br>
+                                <span className='gia-goc' style={{ textDecoration: 'line-through', color: '#999', fontSize: '14px' }}>550.000đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='product-items'  >
+                    <div className='product-items-4' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%', height: '100%' }} src={Hoodie4}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>   Áo Hoodie Journey Icons </h2>
+
+                            <div className='khu-vuc-gia'>
+                                <div className='gia-giam'>
+                                    <span >349.000đ </span>
+                                </div>
+
+                                <div className='gia-goc'>
+                                    <span style={{ textDecoration: 'line-through', color: '#999', fontSize: '14px' }}>550.000đ</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="container">
-                    <div className='product-items'  >
-                        <div className='product-items-1' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%', height: '100%' }} src={Phu_kien_1}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'> Túi đeo chéo Teelab </h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-giam'>110.000đ</span>
-                                    <br></br>
-                                    <span className='gia-goc' style={{ textDecoration: 'line-through', color: '#999', fontSize: '14px' }}>165.000đ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='product-items'  >
-                        <div className='product-items-2' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%', height: '100%' }} src={Phu_kien_2}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>  Dép Teelab Essentials  </h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-giam'>189.000đ</span>
-                                    <br></br>
-                                    <span className='gia-goc' style={{ textDecoration: 'line-through', color: '#999', fontSize: '14px' }}>220.000đ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='product-items'  >
-                        <div className='product-items-3' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%', height: '100%' }} src={Phu_kien_3}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>   Túi đeo chéo Teelab </h2>
-                                <div className='khu-vuc-gia'>
-                                    <span className='gia-giam'>129.000đ</span>
-                                    <br></br>
-                                    <span className='gia-goc' style={{ textDecoration: 'line-through', color: '#999', fontSize: '14px' }}>200.000đ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='product-items'  >
-                        <div className='product-items-4' >
-                            <div className='anh-product-items'>
-                                <img style={{ width: '100%', height: '100%' }} src={Phu_kien_4}></img>
-                            </div>
-                            <div className='noi-dung-product-items'>
-                                <h2 className='product-items'>   Ba lô Racer Teelab   </h2>
 
-                                <div className='khu-vuc-gia'>
-                                    <div className='gia-giam'>
-                                        <span >299.000đ </span>
-                                    </div>
 
-                                    <div className='gia-goc'>
-                                        <span style={{ textDecoration: 'line-through', color: '#999', fontSize: '14px' }}>460.000đ</span>
-                                    </div>
+
+                <div className='product-items'  >
+                    <div className='product-items-1' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%', height: '100%' }} src={Phu_kien_1}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'> Túi đeo chéo Teelab </h2>
+                            <div className='khu-vuc-gia'>
+                                <span className='gia-giam'>110.000đ</span>
+                                <br></br>
+                                <span className='gia-goc' style={{ textDecoration: 'line-through', color: '#999', fontSize: '14px' }}>165.000đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='product-items'  >
+                    <div className='product-items-2' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%', height: '100%' }} src={Phu_kien_2}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>  Dép Teelab Essentials  </h2>
+                            <div className='khu-vuc-gia'>
+                                <span className='gia-giam'>189.000đ</span>
+                                <br></br>
+                                <span className='gia-goc' style={{ textDecoration: 'line-through', color: '#999', fontSize: '14px' }}>220.000đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='product-items'  >
+                    <div className='product-items-3' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%', height: '100%' }} src={Phu_kien_3}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>   Túi đeo chéo Teelab </h2>
+                            <div className='khu-vuc-gia'>
+                                <span className='gia-giam'>129.000đ</span>
+                                <br></br>
+                                <span className='gia-goc' style={{ textDecoration: 'line-through', color: '#999', fontSize: '14px' }}>200.000đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='product-items'  >
+                    <div className='product-items-4' >
+                        <div className='anh-san-pham'>
+                            <img style={{ width: '100%', height: '100%' }} src={Phu_kien_4}></img>
+                        </div>
+                        <div className='noi-dung-san-pham'>
+                            <h2 className='san-pham'>   Ba lô Racer Teelab   </h2>
+
+                            <div className='khu-vuc-gia'>
+                                <div className='gia-giam'>
+                                    <span >299.000đ </span>
+                                </div>
+
+                                <div className='gia-goc'>
+                                    <span style={{ textDecoration: 'line-through', color: '#999', fontSize: '14px' }}>460.000đ</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
             <ScrollButton />
             <Footer />
-        </div>
+        </div >
     )
 }
 export default TatCaSanPham;

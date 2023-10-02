@@ -20,6 +20,7 @@ const ContentTee1 = () => {
     //     quantityInput.value--;
     // });
 
+
     return (
         <div>
             <div>
@@ -49,12 +50,11 @@ const ContentTee1 = () => {
                             <button className="btnXL">XL</button>
                         </div>
                     </div>
-
                 </div>
-                {/* <div class="quantity">
-                    <button className="decrease">-</button>
-                    <input type="number" value="1" min="1" max="100" />
-                    <button className="increase">+</button>
+                {/* <div class="buttons_added">
+                    <input className="minus is-form" type="button" value="-" />
+                    <input aria-label="quantity" className="input-qty" max="" min="1" name="" type="number" value="1" />
+                    <input className="plus is-form" type="button" value="+" />
                 </div> */}
             </div>
 

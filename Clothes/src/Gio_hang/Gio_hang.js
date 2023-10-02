@@ -50,7 +50,6 @@ const Gio_hang = () => {
         setCarts(cartNewState)
     }
     const handleClearAllCart = () => {
-        console.log("abc")
         setCarts([]);
     }
     const cartsCheckAmountNoEmpty = carts.filter(function (cartItem) {

@@ -12,7 +12,7 @@ const Jacket = () => {
             <div>
                 <Header />
             </div>
-            <div class='container'>
+            <div className='container'>
                 <div className='product-items'  >
                     <div className='san-pham-1' >
                         <div className='anh-san-pham'>
@@ -66,7 +66,7 @@ const Jacket = () => {
                     </div>
                 </div>
             </div>
-            <div class='container'>
+            <div className='container'>
                 <div className='product-items'  >
                     <div className='san-pham-1' >
                         <div className='anh-san-pham'>
@@ -119,7 +119,7 @@ const Jacket = () => {
                         </div>
                     </div>
                 </div>
-            </div>  <div class='container'>
+            </div> <div className='container'>
                 <div className='product-items'  >
                     <div className='san-pham-1' >
                         <div className='anh-san-pham'>
@@ -172,7 +172,7 @@ const Jacket = () => {
                         </div>
                     </div>
                 </div>
-            </div>  <div class='container'>
+            </div> <div className='container'>
                 <div className='product-items'  >
                     <div className='san-pham-1' >
                         <div className='anh-san-pham'>
@@ -225,7 +225,7 @@ const Jacket = () => {
                         </div>
                     </div>
                 </div>
-            </div>  <div class='container'>
+            </div> <div className='container'>
                 <div className='product-items'  >
                     <div className='san-pham-1' >
                         <div className='anh-san-pham'>
@@ -278,7 +278,7 @@ const Jacket = () => {
                         </div>
                     </div>
                 </div>
-            </div>  <div class='container'>
+            </div> <div className='container'>
                 <div className='product-items'  >
                     <div className='san-pham-1' >
                         <div className='anh-san-pham'>
